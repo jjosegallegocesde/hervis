@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+        background: linear-gradient(to right, #f7f8f8, #acbb78);
+}
+/*---------------barra menu-----------------------*/
+
+
+.logo img{
+    width: 125px;
+}
+.navbar .navbar-brand{
+    margin-left:100px;
+}
+.navbar .navbar-brand:hover{
+background-color:#2C5364;
+border-radius: 15px;
+padding: 5px 1px;
+}
+.navbar .nav-item{
+    padding: 0 40px;
+}
+.navbar .nav-item:hover{
+    background-color:#2C5364;
+    border-radius: 15px;
+    padding: 5px 1px;
+}
+
+.navbar .navbar-brand .fas{
+    font-size: 1.6em;
+}
+.navbar .nav-item .cart{
+    font-size: 1.1em;
+}
+
+a{
+    text-decoration: none;
+    color: #555;
+}
+p{
+    color: #555;
+}
+/*--------------presentacion inicio------------------------*/
+menu .presentacion{
+    margin-top:80px;
+}
+menu .row-presentacion{ 
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+    
+}
+.col-5{
+    flex-basis: 50%;
+    min-width: 300px;
+}
+.col-5 img{
+    max-width: 100%;
+    padding: 100px 0;
+    /*margin-top: 50px;*/
+ 
+    
+}
+.col-5 h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin:25px 0;
+}
+.boton{
+    display: inline-block;
+    background: #ff523b;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+}
+.boton:hover{
+    background: #563434;
+}
+
+/*------------------------categorias-----------------------*/
+.categorias{
+    margin: 70px 0;
+}
+.row-categorias{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.col-3{
+    flex-basis: 30%;/*consultar*/
+    min-width: 250px;
+    margin-bottom: 30px;
+}
+.col-3 img{
+    width: 100%;
+    border-radius: 25px;
+    max-height: 147px;
+}
+.pequeno-container{
+    max-width: 1080px;
+    margin:auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+/*----------titulos con barra que resalta--------------*/
+.titulo{
+    position: relative;
+    text-align: center;
+    margin: 0 auto 80px;
+    line-height: 60px;
+    color: #555;
+}
+.titulo::after{/*consultar*/
+    position: absolute;
+    content: '';
+    background: #ff523b;
+    width: 360px;
+    height: 5px;
+    border-radius: 5px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/*----------------oferta-----------------------*/
+.ofertas{
+  
+    margin-top: 80px;
+    padding: 30px 0;
+}
+.col-5 .oferta-img{
+    padding: 15px;
+    max-height: 400px;
+    max-width: 400px;
+    margin-top: 0px;
+}
+small{
+    color: #555;
+}
+.col-5 p{
+    margin-top: 40px;
+}
+.col-5 .row{
+    display:inline-block;
+        margin: 30px 0;
+}
+/*-------------------footer--------------------------*/
+.footer{
+    background:black;
+    color: #8a8a8a;
+    font-size: 14px;
+    padding: 60px 0 20px;
+}
+.footer p{
+    color:#8a8a8a;
+}
+.footer h3{
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4{
+    min-width: 250px;
+    margin-bottom:5px;
+}
+.footer-col-1{
+    flex-basis: 30%;
+}
+.footer-col-2{
+    flex: 1;
+    text-align: center;
+}
+.footer-col-2 .fas{
+    font-size:1.8em;
+}
+.footer-col-3{
+    flex-basis:12%;
+    text-align:center;
+}
+.footer-col-4{
+    flex-basis: 12%;
+    text-align: center;
+}
+ul{
+    list-style-type: none;
+}
+.app-logo{
+    margin-top: 20px;
+}
+.app-logo img{
+    width: 140px;
+}
+.footer hr{
+    border: none;
+    background: #b5b5b5;
+    height: 1px;
+    margin: 20px 0;
+}
+.copyright{
+    text-align: center;
+}
+
+
